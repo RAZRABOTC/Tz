@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.4/staging' branch; Version is '6000.4.0f1 (8cf496087c8f) revision 9237654'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HP" at "2026-04-20T00:46:47.8283073Z"
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 15739 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HP" at "2026-05-07T01:55:14.3794945Z"
 System  architecture: x64
 Process architecture: x64
-Date: 2026-04-20T00:46:47Z
+Date: 2026-05-07T01:55:14Z
 
 COMMAND LINE ARGUMENTS:
 D:\Unity\6000.4.0f1\Editor\Unity.exe
@@ -19,9 +19,7 @@ D:/Unity/UnityGames/Horror3
 -logFile
 Logs/AssetImportWorker7.log
 -srvPort
-57433
--licensingIpc
-LicenseClient-HP
+49383
 -force-d3d12
 -job-worker-count
 5
@@ -68,14 +66,14 @@ D:/Unity/UnityGames/Horror3
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [21540]  Target information:
+Player connection [24476]  Target information:
 
-Player connection [21540]  * "[IP] 26.118.42.253 [Port] 0 [Flags] 2 [Guid] 1413501580 [EditorId] 1413501580 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-L0DI5S2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [24476]  * "[IP] 26.118.42.253 [Port] 0 [Flags] 2 [Guid] 3811129080 [EditorId] 3811129080 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-L0DI5S2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [21540]  * "[IP] 192.168.0.167 [Port] 0 [Flags] 2 [Guid] 1413501580 [EditorId] 1413501580 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-L0DI5S2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [24476]  * "[IP] 192.168.0.167 [Port] 0 [Flags] 2 [Guid] 3811129080 [EditorId] 3811129080 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-L0DI5S2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [21540] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [21540] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24476] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [24476] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -87,7 +85,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 302.55 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2.74 ms, found 1 plugins.
 Initialize engine version: 6000.4.0f1 (8cf496087c8f)
 [Subsystems] Discovering subsystems at path D:/Unity/6000.4.0f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Unity/UnityGames/Horror3/Assets
@@ -108,27 +106,27 @@ Mono path[1] = 'D:/Unity/6000.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityj
 Mono config path = 'D:/Unity/6000.4.0f1/Editor/Data/MonoBleedingEdge/etc'
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
 CodeReloadManager initialized
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/6000.4.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/Unity/6000.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-[Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-HP"
 [Licensing::IpcConnector] LicenseClient-HP channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HP-6000.4.0" at "2026-04-20T00:47:10.3001335Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HP-6000.4.0" at "2026-05-07T01:55:22.8095485Z"
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/6000.4.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/6000.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              1ca1935bcc964f5f93249f1f60321e2d
-  Correlation Id:          5303ccc8a7e1862eb3d9e117f78015c1
-  External correlation Id: 3957344346710621273
+  Session Id:              fc4afcf1ceab4dc08588cf7a3f8ee5b9
+  Correlation Id:          2c99d65b5c7d33c4e7552abcd56bfa73
+  External correlation Id: 2158350560383523199
   Machine Id:              ZUof6B12KhUq9OTq9nLrS3MQZfs=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-HP-6000.4.0" (connect: 0.00s, validation: 0.01s, handshake: 4.47s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HP-6000.4.0-notifications" at "2026-04-20T00:47:14.7816755Z"
-[Licensing::Module] Licensing Background thread has ended after 26.96s
-[Licensing::Module] Licensing is initialized (took 4.60s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-HP-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 8.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HP-6000.4.0-notifications" at "2026-05-07T01:55:30.8651349Z"
+[Licensing::Module] Licensing Background thread has ended after 16.49s
+[Licensing::Module] Licensing is initialized (took 5.80s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 10171418086309-UnityPersXXXX
@@ -138,12 +136,10 @@ Register platform support module: D:/Unity/6000.4.0f1/Editor/Data/PlaybackEngine
 Register platform support module: D:/Unity/6000.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: D:/Unity/6000.4.0f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 4.825677 seconds.
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
+Registered in 5.940431 seconds.
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 833 ms
+Android Extension - Scanning For ADB Devices 631 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -152,30 +148,32 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.594 seconds
-Domain Reload Profiling: 9291ms
-	BeginReloadAssembly (516ms)
-	RebuildCommonClasses (146ms)
+- Finished resetting the current domain, in  7.770 seconds
+Domain Reload Profiling: 20481ms
+	BeginReloadAssembly (176ms)
+	RebuildCommonClasses (62ms)
 	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (4958ms)
-	LoadAllAssembliesAndSetupDomain (1058ms)
-		LoadAssemblies (571ms)
-		AnalyzeDomain (988ms)
-			TypeCache.Refresh (985ms)
-				TypeCache.ScanAssembly (894ms)
-	FinalizeReload (2595ms)
+	initialDomainReloadingComplete (6439ms)
+	LoadAllAssembliesAndSetupDomain (5500ms)
+		LoadAssemblies (448ms)
+		AnalyzeDomain (5216ms)
+			TypeCache.Refresh (5215ms)
+				TypeCache.ScanAssembly (5173ms)
+	FinalizeReload (8287ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (1600ms)
-			BeforeProcessingInitializeOnLoad (111ms)
-			ProcessInitializeOnLoadAttributes (189ms)
-			ProcessInitializeOnLoadMethodAttributes (580ms)
+			InitializePlatformSupportModulesInManaged (950ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (294ms)
+			ProcessInitializeOnLoadMethodAttributes (6302ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Duplicate assembly 'System.Collections.Immutable.FSR.dll' with different versions detected, using 'Assets/FastScriptReload/Plugins/Roslyn/2021+/System.Collections.Immutable.FSR.dll, AssemblyName=System.Collections.Immutable, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Assets/FastScriptReload/Plugins/Roslyn/2021+/System.Collections.Immutable.dll, AssemblyName=System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
 Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly FastScriptReload.Tests.Editor.dll at Library/ScriptAssemblies/FastScriptReload.Tests.Editor.dll not valid. Loading of assembly skipped.
+Assembly FastScriptReload.Tests.Runtime.dll at Library/ScriptAssemblies/FastScriptReload.Tests.Runtime.dll not valid. Loading of assembly skipped.
 Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
 Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
 Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
@@ -196,6 +194,7 @@ Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/Scri
 Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
 Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
 Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
 Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
 Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
 Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
@@ -203,6 +202,7 @@ Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Un
 Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
 Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
 Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 54.79 ms, found 1 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -210,39 +210,59 @@ Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+FSR: Shader does not exist: Object reference not set to an instance of an object
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+ImmersiveVrToolsCommon.Runtime.Logging.LoggerScoped:LogInternal (UnityEngine.LogType,object)
+ImmersiveVrToolsCommon.Runtime.Logging.LoggerScoped:LogWarning (object)
+FastScriptReload.Editor.FastScriptReloadPreference:SetCommonMaterialsShader (FastScriptReload.Editor.FastScriptReloadPreference/ShadersMode) (at Assets/FastScriptReload/Scripts/Editor/FastScriptReloadWelcomeScreen.cs:863)
+FastScriptReload.Editor.FastScriptReloadWelcomeScreenInitializer:AutoDetectAndSetShaderMode () (at Assets/FastScriptReload/Scripts/Editor/FastScriptReloadWelcomeScreen.cs:1089)
+FastScriptReload.Editor.FastScriptReloadWelcomeScreenInitializer:InitCommon () (at Assets/FastScriptReload/Scripts/Editor/FastScriptReloadWelcomeScreen.cs:971)
+FastScriptReload.Editor.FastScriptReloadWelcomeScreenInitializer:.cctor () (at Assets/FastScriptReload/Scripts/Editor/FastScriptReloadWelcomeScreen.cs:939)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/FastScriptReload/Scripts/Editor/FastScriptReloadWelcomeScreen.cs Line: 863)
+
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Horror3
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.906 seconds
-Domain Reload Profiling: 8193ms
-	BeginReloadAssembly (237ms)
-		DisableScriptedObjects (7ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (1802ms)
-	LoadAllAssembliesAndSetupDomain (3166ms)
-		LoadAssemblies (2802ms)
-		AnalyzeDomain (489ms)
-			TypeCache.Refresh (393ms)
-				TypeCache.ScanAssembly (369ms)
-			BuildScriptInfoCaches (78ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (2906ms)
+- Finished resetting the current domain, in 33.009 seconds
+Domain Reload Profiling: 38645ms
+	BeginReloadAssembly (298ms)
+		DisableScriptedObjects (10ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (1873ms)
+	LoadAllAssembliesAndSetupDomain (3382ms)
+		LoadAssemblies (3018ms)
+		AnalyzeDomain (514ms)
+			TypeCache.Refresh (396ms)
+				TypeCache.ScanAssembly (362ms)
+			BuildScriptInfoCaches (96ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (33009ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			BeforeProcessingInitializeOnLoad (195ms)
-			ProcessInitializeOnLoadAttributes (1837ms)
-			ProcessInitializeOnLoadMethodAttributes (107ms)
-			AfterProcessingInitializeOnLoad (4ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.37 seconds
-Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6426 unused Assets / (5.6 MB). Loaded Objects now: 7271.
-Memory consumption went from 151.1 MB to 145.5 MB.
-Total: 9.989800 ms (FindLiveObjects: 1.103800 ms CreateObjectMapping: 0.664400 ms MarkObjects: 5.377400 ms  DeleteObjects: 2.840100 ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			BeforeProcessingInitializeOnLoad (207ms)
+			ProcessInitializeOnLoadAttributes (31506ms)
+			ProcessInitializeOnLoadMethodAttributes (201ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.61 seconds
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6921 unused Assets / (6.8 MB). Loaded Objects now: 7799.
+Memory consumption went from 163.9 MB to 157.1 MB.
+Total: 17.759700 ms (FindLiveObjects: 1.759800 ms CreateObjectMapping: 1.253900 ms MarkObjects: 10.981600 ms  DeleteObjects: 3.759200 ms)
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
